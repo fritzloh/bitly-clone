@@ -1,2 +1,10 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<form action="urls" method="post">
+	Enter URL:
+	<input type ="text" name="long_url">
+	<input type="submit" value="Submit">
+</form>
+<p> You need to include "https://.." for your url submission</p>
+
+
+<p> Please copy your shortened url :</p>
+<a href = "http://localhost:9393/<%=@urls.short_url%>"> https://localhost:9393/<%=@urls.short_url%></a>
