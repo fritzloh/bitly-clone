@@ -1,10 +1,35 @@
-<form action="urls" method="post">
-	Enter URL:
-	<input type ="text" name="long_url">
-	<input type="submit" value="Submit">
-</form>
-<p> You need to include "https://.." for your url submission</p>
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="css/application.css">
+
+<div class="brand">
+<a href="/">
+<img class ="logo" src="img/Drawing.png" href="/"></img>
+</a>
+</div>
+
+<div>
+                <div class="img">
+                    <img class ="size" src="img/howitworks.png"></img>
+                </div>
+                <div class="row">
+                    <h1>Make your URL address<br/>
+                    look really SHORT.</h1>
+                    <p>(Please include "https://.." into URL </p>
+                    <form class="form-inline" action="urls" method="post">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="long_url" placeholder="Enter your URL address">
+                      </div>
+                      <button type="submit" class="btn btn-warning btn-lg">Make Me Short!</button>
+                    </form>          
+                    <p class="results"> <b> Please copy your shortened url :</b></p>
+                    <% if Url.last %>
+                    <a class="result" target="_blank" href = "http://localhost:9393/<%=@url.short_url%>"> <b>http://localhost:9393/<%=@url.short_url%></b></a>
+                    <p class="count"><b>Total clicks: <%= @url.click_count%></b></p>
+                    <% end %>       
+                
+                
+            </div><!-- /row -->
+        </div>
 
 
-<p> Please copy your shortened url :</p>
-<a href = "http://localhost:9393/<%=@urls.short_url%>"> https://localhost:9393/<%=@urls.short_url%></a>

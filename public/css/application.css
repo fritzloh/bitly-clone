@@ -1,0 +1,115 @@
+body {
+  background-color: #ecf0f1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #555;
+}
+
+
+.logo {
+    width: 200px;
+    height: 100px;
+
+}
+
+
+.img {
+    float: left;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.size {
+    width: 400px;
+    height: 400px;
+}
+
+
+.result {
+  font-family: 'Lato', sans-serif;
+  color: #778899;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.results {
+  font-family: 'Lato', sans-serif;
+  color: #1F1F21;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.count {
+  font-family: 'Lato', sans-serif;
+  color: #A52A2A;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.brand {
+ /* margin-top: 20px;
+  margin-left: 80px;*/
+  background-color: #7f8c8d;
+  width:100%;
+}
+
+
+
+.navbar-brand {
+  font-family: 'Lato', sans-serif;
+  color: #f0ad4e;
+  font-size: 30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.form-control {
+    height: 38px;
+    font-size: 18px;
+    width: 280px;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+  }
+
+
+.row {
+  float: right;
+  margin-top: 70px;
+  margin-right: 400px;
+  margin-left: 30px;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+
+
