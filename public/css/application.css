@@ -1,5 +1,5 @@
 body {
-  background-color: #ecf0f1;
+  background-color: #96afff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 13px;
@@ -28,7 +28,7 @@ body {
 
 .result {
   font-family: 'Lato', sans-serif;
-  color: #778899;
+  color: #ffffff;
   font-size: 15px;
   font-style: bold;
 }
@@ -36,6 +36,14 @@ body {
 .results {
   font-family: 'Lato', sans-serif;
   color: #1F1F21;
+  font-size: 15px;
+  font-style: bold;
+}
+
+
+.error {
+  font-family: 'Lato', sans-serif;
+  color: #DB4251;
   font-size: 15px;
   font-style: bold;
 }
@@ -50,7 +58,7 @@ body {
 .brand {
  /* margin-top: 20px;
   margin-left: 80px;*/
-  background-color: #7f8c8d;
+  background-color: #777777;
   width:100%;
 }
 
@@ -107,7 +115,7 @@ body {
 
 .btn-warning {
   color: #ffffff;
-  background-color: #f0ad4e;
+  background-color: #DB4251;
   border-color: #eea236;
 }
 
