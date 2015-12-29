@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 
 <link rel="stylesheet" type="text/css" href="css/application.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/js/application.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/jquery.animateNumber.min.js"></script> 
+
 
 <div class="brand">
 <a href="/">
 <img class ="logo" src="img/Drawing.png" href="/"></img>
 </a>
 </div>
-
 <div>
+<div class="counter">
+    <p class="counter_des">We've shortened <span id="lines">0</span> links till date</p>
+</div>
+
+
+
                 <div class="img">
                     <img class ="size" src="img/howitworks.png"></img>
                 </div>
@@ -18,10 +29,10 @@
                     <p>(Please include "https://.." into URL) </p>
                     <form class="form-inline" action="urls" method="post">
                       <div class="form-group">
-                        <input type="text" class="form-control" name="long_url" placeholder="Enter your URL address">
+                        <input type="text" class="form-control" name="long_url" placeholder="Paste a link to shorten it">
                       </div>
                     
-                      <button type="submit" class="btn btn-warning btn-lg">Make Me Short!</button>
+                      <button type="submit" class="btn btn-warning btn-lg">Submit</button>
 
                     </form>          
                     <p class="results"> <b> Please copy your shortened url :</b></p>
